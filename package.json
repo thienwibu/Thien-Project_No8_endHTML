@@ -1,0 +1,22 @@
+{
+     "name": "thien_project_no8",
+     "version": "1.0.0",
+     "description": "",
+     "main": "index.js",
+     "scripts": {
+          "test": "echo \"Error: no test specified\" && exit 1",
+          "sass": "sass scss:assets/css -w"
+     },
+     "repository": {
+          "type": "git",
+          "url": "git+https://github.com/thienwibu/Thien-Project_No8_endHTML.git"
+     },
+     "keywords": [],
+     "author": "",
+     "license": "ISC",
+     "type": "commonjs",
+     "bugs": {
+          "url": "https://github.com/thienwibu/Thien-Project_No8_endHTML/issues"
+     },
+     "homepage": "https://github.com/thienwibu/Thien-Project_No8_endHTML#readme"
+}
