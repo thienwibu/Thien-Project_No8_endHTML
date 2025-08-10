@@ -1,6 +1,11 @@
+@use "../abstracts";
 .logo {
      display: flex;
      align-items: center;
+     @include abstracts.breakpoint(lg) {
+          width: 10px;
+          margin-left: 40px;
+     }
      &__title {
           color: var(--Secondary-Color-Secondary-1, #1a162e);
           margin-left: 14px;
@@ -12,5 +17,13 @@
           line-height: 3.2rem; /* 145.455% */
           width: 14.4rem;
           height: 3.2rem;
+          @include abstracts.breakpoint(lg) {
+               font-size: 1.8rem;
+          }
+     }
+     &__img {
+          @include abstracts.breakpoint(lg) {
+               width: 24px;
+          }
      }
 }
